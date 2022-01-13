@@ -1,0 +1,1578 @@
+*{
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+        background-color: #f1ebe5;
+        font-family: 'Lora';
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 20px 80px;
+    border-bottom: 1px solid #f1ebe5;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu li a{
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.menubtn{
+    color: #3a9a83;
+}
+.button1{
+    position: relative;
+    display: inline-block;
+    width: 142px;
+    height: 30px;
+    background-color:#3a9a83;
+    color: #f1ebe5;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px 0px;
+}
+.banner{
+    height: 680px;
+    background: url(../Parakarsa/banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+}
+.banner .text{
+    text-align: left;
+    padding-bottom: 100px;
+}
+.banner h1{
+    line-height: 150px;
+    text-align: left;
+    font-weight: 350;
+    color: #3a9a83;
+    font-size: 110px;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.banner p{
+    position: relative;
+    width: 490px;
+    height: 108px;
+    left: 70px;
+    text-align: left;
+    top: 50px;
+    font-family: Lora;
+    font-size: 20px;
+    line-height: 36px;
+    color: #181818;
+}
+.button2{
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 60px;
+    background-color:#3a9a83;
+    color: #f1ebe5;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 60px;
+    z-index: 9;
+    top: 50px;
+    margin-left: 60px;
+    margin-top: 80px;
+    border-radius: 8px 0px;
+}
+.banner2{
+    height: 800px;
+    top: 788px;
+    display: flex;
+    background: #3A9A83;
+}
+.banner2 h1{
+    line-height: 150px;
+    text-align: center;
+    font-weight: 350;
+    color: #F1EBE5  ;
+    font-size: 110px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.banner2 p{
+    width: 512px;
+    height: 50px;
+    margin-left: 834px;
+    margin-top: 60px;
+    font-family: Lora;
+    font-size: 18px;
+    line-height: 30px;
+    color: #F3EEE7;
+}
+.p-img{
+    position: relative;
+    margin-left: 10px;
+    margin-top: -400px;
+    display: flex;
+}
+.pk{
+    max-width: 100%;
+    height: auto;
+}
+.banner2 .text2 .lgoph1{
+    position: relative;
+    top: -400px;
+    margin-left: 750px;
+}
+.banner2 .text2 .lgoph2{
+    position: relative;
+    top: -343px;
+    margin-left: 750px;
+}
+.banner2 .text2 .lgoph3{
+    position: relative;
+    top: -290px;
+    margin-left: 750px;
+}
+.banner2 .text2 .lgoph4{
+    position: relative;
+    top: -235px;
+    margin-left: 750px;
+}
+.banner3{
+    height: 768px;
+    background: #D5E2DA;
+    display: flex;
+}
+.container31 h2{
+    line-height: 50px;
+    text-align: left;
+    font-weight: 350;
+    color: #043729 ;
+    font-size: 30px;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+.container31 p{
+    margin-left: 120px;
+    margin-top: 10px;
+    font-family: Lora;
+    font-size: 18px;
+    line-height: 30px;
+    color: #043729 ;
+}
+.pkanan{
+    max-width: 100%;
+    height: auto;
+}
+.imgp1{
+    position: relative;
+    margin-left: 750px;
+    margin-top: -230px;
+    display: flex;
+}
+.container32 h2{
+    position: relative;
+    line-height: 50px;
+    text-align: left;
+    font-weight: 350;
+    color: #043729 ;
+    font-size: 30px;
+    margin-left: -500px;
+    margin-top: 400px;
+}
+.container32 p{
+    margin-left: -500px;
+    margin-top: 10px;
+    font-family: Lora;
+    font-size: 18px;
+    line-height: 30px;
+    color: #043729 ;
+}
+.imgp2{
+    position: relative;
+    margin-left: -1200px;
+    margin-top: -230px;
+    display: flex;
+}
+.pkiri{
+    max-width: 100%;
+    height: auto;
+}
+.banner4{
+    height: 772px;
+    background: url(../Parakarsa/twarn.png) no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+}
+.container41 h1{
+    position: relative;
+    color: #086047;
+    margin-top: 70px;
+    margin-left: 60px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+}
+.container41 p{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #094030;
+}
+.container41 ul{
+    position: relative;
+}
+.container41 li {
+    margin-top: 10px;
+    margin-left: 40px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #094030;
+}
+.container42 h1{
+    position: relative;
+    color: #086047;
+    margin-top: 70px;
+    margin-left: 190px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+}
+.container42 p{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #094030;
+}
+.container42 ul{
+    position: relative;
+}
+.container42 li {
+    margin-top: 10px;
+    margin-left: 180px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #094030;
+}
+.container43 h1{
+    position: relative;
+    color: #086047;
+    margin-top: 70px;
+    margin-left: 160px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+}
+.container43 p{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 160px;
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #094030;
+}
+.container43 ul{
+    position: relative;
+}
+.container43 li {
+    margin-top: 10px;
+    margin-left: 140px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #094030;
+}
+.banner5{
+    height: 1850px;
+    background: #F1EBE5;
+}
+.container51 h1{
+    margin-top: 250px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 92px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #1E735B;
+}
+.container51 p{
+    margin-left: 580px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: left;
+    color: #043729;
+}
+.img_N{
+    margin-top: -350px;
+    margin-left: 150px;
+    position: relative;
+    display: flex;
+}
+.PNATAR{
+    max-width: 100%;
+    height: auto;
+}
+.container52 h1{
+    margin-top: 250px;
+    margin-left: 200px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 92px;
+    text-align: left;
+    letter-spacing: 0.1em;
+    color: #743590;
+}
+.container52 p{
+    margin-left: 325px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    color: #043729;
+}
+.img_T{
+    margin-top: -420px;
+    margin-left: 850px;
+    position: relative;
+    display: flex;
+}
+.PTEMURANCANG{
+    max-width: 100%;
+    height: auto;
+}
+.container53 h1{
+    margin-top: 250px;
+    margin-right: 150px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 92px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    color: #EC632D;
+}
+.container53 p{
+    margin-left: 825px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    color: #043729;
+    text-align: left;
+}
+.img_K{
+    margin-top: -325px;
+    margin-left: 100px;
+    position: relative;
+    display: flex;
+}
+.pkar{
+    max-width: 100%;
+    height: auto;
+}
+.banner6{
+    height: 785px;
+    background: #D1AD79;
+    display: flex;
+    position: relative;
+
+}
+.banner6 .lcok{
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    left: 670px;
+}
+.banner6 .container61 h1{
+    position: relative;
+    font-family: Lora;
+    top: 120px;
+    left: 80px;
+    margin-right: -600px;
+    font-size: 52px;
+    letter-spacing: 0.1em;
+    color: #402702;
+}
+.counter-up{
+    padding: 0 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .counter-up .content1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .counter-up .content1 .box1{
+    position: relative;
+    border: 1px solid #F1EBE5;
+    width: 296px;
+    height: 300px;
+    border-radius: 20px 0px;
+    background: #F1EBE5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    top: -10px;
+    right: 500px;
+  }
+  .content1 .box1 .icon1{
+    font-size: 48px;
+    color: #e6e6e6;
+    margin-top: 20px;
+  }
+  .content1 .box1 .counter1{
+    color: #402702;
+    font-family: Hatolie;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150px;
+    line-height: 192px;
+    letter-spacing: 0.0em;
+    margin-top: -15px;
+  }
+  .content1 .box1 .text1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+    color: #402702;
+    margin-top: 0px;
+  }
+.banner6 .textj1 p{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #402702;
+    position: relative;
+    top: 220px;
+    right: 790px;
+}
+.banner6 .textj1 .button{
+    position: relative;
+    display: inline-block;
+    width: 258px;
+    height: 53px;
+    background-color:#F1EBE5;;
+    color: #402702;
+    text-decoration: none;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 53px;
+    top: 230px;
+    right: 780px;
+    border-radius: 20px 0px;
+}
+.counter-up .content2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .counter-up .content2 .box2{
+    position: relative;
+    border: 1px solid #F1EBE5;
+    width: 296px;
+    height: 300px;
+    border-radius: 20px 0px;
+    background: #F1EBE5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    top: -10px;
+    margin-left: -660px;
+  }
+  .content2 .box2 .icon2{
+    font-size: 48px;
+    color: #e6e6e6;
+    margin-top: 20px;
+  }
+  .content2 .box2 .counter2{
+    color: #402702;
+    font-family: Hatolie;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150px;
+    line-height: 192px;
+    letter-spacing: 0.0em;
+    margin-top: -15px;
+  }
+  .content2 .box2 .text2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+    color: #402702;
+    margin-top: 0px;
+  }
+  .banner6 .textj2 p{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #402702;
+    position: relative;
+    top: 220px;
+    margin-left: -405px;
+}
+.banner6 .textj2 .button{
+    position: relative;
+    display: inline-block;
+    width: 258px;
+    height: 53px;
+    background-color:#F1EBE5;;
+    color: #402702;
+    text-decoration: none;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 53px;
+    top: 230px;
+    margin-left: -335px;
+    border-radius: 20px 0px;
+}
+.counter-up .content3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .counter-up .content3 .box3{
+    position: relative;
+    border: 1px solid #F1EBE5;
+    width: 296px;
+    height: 300px;
+    border-radius: 20px 0px;
+    background: #F1EBE5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    top: -10px;
+    margin-right: -370px;
+    left: 5px;
+
+  }
+  .content3 .box3 .icon3{
+    font-size: 48px;
+    color: #e6e6e6;
+    margin-top: 20px;
+  }
+  .content3 .box3 .counter3{
+    color: #402702;
+    font-family: Hatolie;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150px;
+    line-height: 192px;
+    letter-spacing: 0.0em;
+    margin-top: -15px;
+  }
+  .content3 .box3 .text3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+    color: #402702;
+    margin-top: 0px;
+  }
+  .banner6 .textj3 p{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #402702;
+    position: relative;
+    top: 220px;
+    margin-left: 50px;
+    right: -30px;
+}
+.banner6 .textj3 .button{
+    position: relative;
+    display: inline-block;
+    width: 258px;
+    height: 53px;
+    background-color:#F1EBE5;;
+    color: #402702;
+    text-decoration: none;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 53px;
+    top: 230px;
+    left: 95px;
+    border-radius: 20px 0px;
+}
+.banner7{
+    height: 769px;
+    background: #FFFBF8;
+    display: flex;
+}
+.banner7 .boxk{
+    width: 265px;
+    height: 250px;
+    border: 1px solid #EC632D;
+    background-color: #EC632D;
+    display: flex;
+    border-bottom-right-radius: 25px;
+    margin-top: 80px;
+    margin-left: 350px;
+}
+.PLogoKarta{
+    max-width: 100%;
+    height: auto;  
+}
+.banner7 .boxtk{
+    width: 265px;
+    height: 250px;
+    border: 1px solid #EC632D;
+    box-sizing: border-box;
+    border-top-left-radius: 20px;
+    text-decoration: none;
+    text-align: right;
+    z-index: 9;
+    top: 50px;
+    margin-left: 90px;
+    margin-top: -250px;
+}
+.banner7 .textk h3{
+    color: #541902;
+    margin-top: 50px;
+    font-family: Lora;
+    font-size: 35px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.banner7 .textk p{
+    color: #541902;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    margin-right: 15px;
+}
+.banner7 .boxn{
+    width: 265px;
+    height: 250px;
+    border: 1px solid #3c9c84;
+    background-color: #3c9c84;
+    display: flex;
+    border-bottom-right-radius: 25px;
+    margin-top: -250px;
+    margin-left: 930px;
+}
+.PLogoNatar{
+    max-width: 100%;
+    height: auto;  
+}
+.banner7 .boxtn{
+    width: 265px;
+    height: 250px;
+    border: 1px solid #3c9c84;
+    box-sizing: border-box;
+    border-top-left-radius: 20px;
+    text-decoration: none;
+    text-align: right;
+    z-index: 9;
+    top: 50px;
+    margin-left: 665px;
+    margin-top: -250px;
+}
+.banner7 .textn h3{
+    color: #00271C;
+    margin-top: 50px;
+    font-family: Lora;
+    font-size: 35px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.banner7 .textn p{
+    color: #00271C;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    margin-right: 15px;
+}
+.banner7 .boxte{
+    width: 265px;
+    height: 250px;
+    border: 1px solid #F3EEE8;
+    background-color: #F3EEE8;
+    display: flex;
+    border-radius: 0px 0px 0px 30px;
+    margin-top: 70px;
+    margin-left: 180px;
+}
+.PLogoTemurancang{
+    max-width: 100%;
+    height: auto;  
+}
+.banner7 .boxtte{
+    width: 265px;
+    height: 250px;
+    border: 1px solid #B7A794;
+    box-sizing: border-box;
+    border-radius: 0px 30px 0px 0px;
+    text-decoration: none;
+    text-align: left;
+    z-index: 9;
+    top: 50px;
+    margin-left: 445px;
+    margin-top: -250px;
+}
+.banner7 .textte h3{
+    color: #110018;
+    margin-top: 50px;
+    font-family: Lora;
+    font-size: 35px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.banner7 .textte p{
+    color: #110018;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    margin-left: 15px;
+}
+.banner7 .boxpa{
+    width: 265px;
+    height: 250px;
+    border: 1px solid #42A086;
+    background-color: #42A086;
+    display: flex;
+    border-radius: 0px 0px 0px 30px;
+    margin-top: -250px;
+    margin-left: 750px;
+    align-items: center;
+    padding-left: 25px;
+}
+.parakarsa2b{
+    max-width: 100%;
+    height: auto; 
+}
+.banner7 .boxtpa{
+    width: 265px;
+    height: 250px;
+    border: 1px solid #42A086;
+    box-sizing: border-box;
+    border-radius: 0px 30px 0px 0px;
+    text-decoration: none;
+    text-align: left;
+    z-index: 9;
+    top: 50px;
+    margin-left: 1015px;
+    margin-top: -250px;
+}
+.banner7 .textpa h3{
+    color: #00271C;
+    margin-top: 50px;
+    font-family: Lora;
+    font-size: 35px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.banner7 .textpa p{
+    color: #00271C;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    margin-left: 15px;
+}
+.banner8{
+    height: 670px;
+    background: #F1EBE5;
+}
+.banner8 h1{
+    font-family: Hatolie;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 59px;
+    letter-spacing: 0.5em;
+    color: #402702;
+    margin-top: 100px;
+    margin-left: 280px;
+}
+.lopc{
+  margin-top: 20px;
+}
+.PCOK{
+    max-width: 100%;
+    height: auto;
+}
+.banner8 .boxs1{
+    width: 340.13px;
+    height: 355px;
+    border: 1px solid #402702;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.banner8 .lopc h3{
+    margin-top: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #043729;
+}
+.checked {
+    color: orange;
+    margin-top: 20px;
+  }
+.banner8 .lopc p{
+    margin-top: 20px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #043729;
+}
+.banner8 .boxs2{
+    width: 340.13px;
+    height: 355px;
+    border: 1px solid #402702;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: -355px;
+    margin-left: 510px;
+}
+.lopc2{
+    margin-top: 20px;
+  }
+.banner8 .lopc2 h3{
+    margin-top: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #043729;
+}
+.banner8 .lopc2 p{
+    margin-top: 20px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #043729;
+}
+.banner8 .boxs3{
+    width: 340.13px;
+    height: 355px;
+    border: 1px solid #402702;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: -355px;
+    margin-left: 935px;
+}
+.lopc3{
+    margin-top: 20px;
+  }
+.banner8 .lopc3 h3{
+    margin-top: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #043729;
+}
+.banner8 .lopc3 p{
+    margin-top: 20px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #043729;
+}
+.banner9{
+    height: 769px;
+    background: #42A086; 
+    display: flex;
+}
+.banner9 .boxlap1{
+    width: 371px;
+    height: 603px;
+    text-align: center;
+    border: 1px solid #FFFBF8;
+    box-sizing: border-box;
+    border-radius: 30px 0px;
+    margin-top: 81px;
+    margin-left: 70px;
+}
+.imglap1{
+    margin-top: 40px;
+}
+.banner9 .imglap1 p{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+.banner9 .imglap1 .button{
+    width: 258px;
+    height: 53px;
+    background: #F1EBE5;
+    border-radius: 20px 0px;
+    position: relative;
+    display: inline-block;
+    background-color:#F1EBE5;
+    color: #402702;
+    text-decoration: none;
+    text-align: center;
+    z-index: 9;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 50px;
+    margin-top: 25px;
+}
+.banner9 .boxlap2{
+    width: 371px;
+    height: 603px;
+    text-align: center;
+    border: 1px solid #FFFBF8;
+    box-sizing: border-box;
+    border-radius: 30px 0px;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.imglap2{
+    margin-top: 40px;
+}
+.Frame-3{
+    max-width: 100%;
+    height: auto;
+}
+.banner9 .imglap2 p{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+.banner9 .imglap2 .button{
+    width: 258px;
+    height: 53px;
+    background: #F1EBE5;
+    border-radius: 20px 0px;
+    position: relative;
+    display: inline-block;
+    background-color:#F1EBE5;
+    color: #402702;
+    text-decoration: none;
+    text-align: center;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 50px;
+    left: 0px;
+    top: 70px;
+}
+.banner9 .boxlap3{
+    width: 371px;
+    height: 603px;
+    text-align: center;
+    border: 1px solid #FFFBF8;
+    box-sizing: border-box;
+    border-radius: 30px 0px;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.imglap3{
+    margin-top: 40px;
+}
+.Group-81{
+    max-width: 100%;
+    height: auto;
+}
+.banner9 .imglap3 p{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+.banner9 .imglap3 .button{
+    width: 258px;
+    height: 53px;
+    background: #F1EBE5;
+    border-radius: 20px 0px;
+    position: relative;
+    display: inline-block;
+    background-color:#F1EBE5;
+    color: #402702;
+    text-decoration: none;
+    text-align: center;
+    top: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 50px;
+    left: 0px;
+    top: 70px;
+}
+.banner10{
+    height: 443px;
+    background: #F1EBE5;
+    display: flex;
+}
+.banner10 .text10 h1{
+    font-family: Hatolie;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 59px;letter-spacing: 0.3em;
+    color: #402702;
+    margin-top: 10px;
+    margin-left: 450px;
+}
+.sponsor1{
+    margin-top: 10px;
+    margin-left: 270px;
+}
+.sponsor2{
+    margin-top: 10px;
+    margin-left: 280px;
+}
+.sponsor3{
+    margin-top: -275px;
+    margin-left: 880px;
+}
+.sponsor4{
+    margin-top: 10px;
+    margin-left: 880px;
+}
+.cocacola{
+    max-width: 100%;
+    height: auto;
+}
+.banner11{
+    height: 796px;
+    background: #FFFBF8;
+    display: flex;
+}
+.banner11 .boximg1{
+    position: relative;
+    width: 391px;
+    height: 385px;
+    background: url(imgpot1.jpg);
+    background-size: cover;
+    border-radius: 30px 0px;
+    top: 50px;
+    left: 40px;
+}
+.banner11 .text1 h2{   
+    position: relative;
+    right: 350px;
+    top: 450px;
+    position: relative;
+    font-family: Lora;
+    font-size: 38px;
+    line-height: 45px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.banner11 .text1 p{   
+    right: 350px;
+    top: 460px;
+    position: relative;
+    font-family: Lora;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.banner11 .boximg2{
+    position: relative;
+    width: 391px;
+    height: 523px;
+    background: url(hero2.jpg);
+    background-size: cover;
+    border-radius: 30px 0px;
+    top: -80px;
+    left: 93px;
+}
+.banner11 .text2 h2{   
+    left: 93px;
+    top: -60px;
+    position: relative;
+    font-family: Lora;
+    font-size: 38px;
+    line-height: 45px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.banner11 .text2 p{   
+    left: 93px;
+    top: -60px;
+    position: relative;
+    font-family: Lora;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.banner11 .boximg3{
+    position: relative;
+    width: 391px;
+    height: 385px;
+    background: url(hero4.jpg);
+    background-size: cover;
+    border-radius: 30px 0px;
+    top: -730px;
+    left: 530px;
+}
+.banner11 .text3 h2{   
+    left: 530px;
+    top: -710px;
+    position: relative;
+    font-family: Lora;
+    font-size: 38px;
+    line-height: 45px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.banner11 .text3 p{   
+    left: 530px;
+    top: -710px;
+    position: relative;
+    font-family: Lora;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.banner12{
+    height: 750px;
+    background: #FFFBF8;
+}
+.banner12 h1{
+    font-family: Hatolie;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 59px;
+    letter-spacing: 0.3em;
+    color: #402702;
+    text-align: center;
+}
+.banner12 .boxcvr1{
+    position: relative;
+    width: 191.02px;
+    height: 338.03px;
+    background: url(devker.jpg);
+    background-size: cover;
+    border-radius: 30px 0px;
+    top: 75px;
+    left: 191px;
+}
+.banner12 .text1 h1{
+    position: relative;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    color: #402702;
+    top: 100px;
+    right: 390px;
+}
+.banner12 .text1 p{
+    position: relative;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    top: 110px;
+    right: 395px;
+    color: #402702;
+}
+.banner12 .boxcvr2{
+    position: relative;
+    width: 191.02px;
+    height: 338.03px;
+    background: url(devker.jpg);
+    background-size: cover;
+    border-radius: 30px 0px;
+    top: -365px;
+    left: 461.76px;
+}
+.banner12 .text2 h1{
+    position: relative;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    color: #402702;
+    top: -340px;
+    right: 115px;
+}
+.banner12 .text2 p{
+    position: relative;
+    top: -330px;
+    right: 120px;
+    text-align: center;
+    font-size: 12px;
+    color: #402702;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+}
+.banner12 .boxcvr3{
+    position: relative;
+    width: 191.02px;
+    height: 338.03px;
+    background: url(devker.jpg);
+    background-size: cover;
+    border-radius: 30px 0px;
+    top: -805px;
+    left: 726px;
+}
+.banner12 .text3 h1{
+    position: relative;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    color: #402702;
+    margin-top: -780px;
+    margin-left: 305px;
+}
+.banner12 .text3 p{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 295px;
+    text-align: center;
+    font-size: 12px;
+    color: #402702;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+}
+.banner12 .boxcvr4{
+    position: relative;
+    width: 191.02px;
+    height: 338.03px;
+    background: url(devker.jpg);
+    background-size: cover;
+    border-radius: 30px 0px;
+    margin-top: -480px;
+    margin-left: 989.98px;
+}
+.banner12 .text4 h1{
+    position: relative;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    color: #402702;
+    margin-top: 30px;
+    margin-left: 835px;
+}
+.banner12 .text4 p{
+    position: relative;
+    margin-top: 10px;
+    margin-left:  820px;
+    text-align: center;
+    font-size: 12px;
+    color: #402702;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+}
+.banner13{
+    height: 800px;
+    background: #00271C;
+    display: flex;
+}
+.lohp{
+    margin-top: 40px;
+    margin-left: 650px;
+    position: relative;
+}
+.banner13 h1{
+    margin-top: 120px;
+    margin-left: -250px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 108px;
+    line-height: 138px;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    position: relative;
+}
+.banner13 .img1{
+    width: 227.42px;
+    height: 376px;
+    background: url(p1.jpg);
+    background-size: cover;
+    margin-left: -760px;
+    margin-top: 320px;
+    z-index: 1;
+}
+.banner13 .img2{
+    width: 245.54px;
+    height: 406px;
+    background: url(p2.jpg);
+    background-size: cover;
+    margin-left: -50px;
+    margin-top: 300px;
+    z-index: 2;
+}
+.banner13 .img3{
+    width: 269.69px;
+    height: 447px;
+    background: url(p5.jpg);
+    background-size: cover;
+    margin-left: -60px;
+    margin-top: 280px;
+    z-index: 3;
+}
+.banner13 .img4{
+    width: 245.54px;
+    height: 406px;
+    background: url(p4.jpg);
+    background-size: cover;
+    margin-left: -40px;
+    margin-top: 300px;
+    z-index: 2;
+}
+.banner13 .img5{
+    width: 227.42px;
+    height: 376px;
+    background: url(p3.jpg);
+    background-size: cover;
+    margin-left: -40px;
+    margin-top: 320px;
+    z-index: 1;
+}
+.banner14{
+    height: 480px;
+    background: #BDFFBC;
+    display: flex;
+}
+.banner14 .atas p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.405em;
+    color: rgba(11, 66, 50, 0.8);
+    margin-top: 130px;
+    margin-left: 105px;
+}
+.banner14 .atas h1{
+    font-family: OptimusPrinceps;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 59px;
+    color: #0B4232;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.banner14 .boxtext{
+    width: 591px;
+    height: 91px;
+    background: #FFFFFF;
+    margin-top: 230px;
+    margin-left: -515px;
+}
+
+.banner14 .boxtext .btn{
+    width: 188px;
+    height: 66px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.005em;
+    color: #000000;
+    position: relative;
+    display: inline-block;
+    background-color:#BDFFBC;;
+    text-decoration: none;
+    text-align: center;
+    line-height: 60px;
+    top: 12px;
+    margin-left: 380px;
+}
+input[type=text] {
+    position: relative;
+    top: -40px;
+    left: 10px;
+    width: 60%;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 4px;
+  }
+.banner14 .bawah p{
+    position: relative;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.005em;
+    color: #000000;
+    margin-top: 330px;
+    margin-left: -590px;
+}
+.banner14 .bawah .uline{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.005em;
+    text-decoration-line: underline;
+    color: #000000;
+    position: relative;
+    top: -22px;
+    margin-left: -310px;
+}
+.gambar{
+    margin-top: 55px;
+    margin-left: 50px;
+}
+.banner15{
+    height: 226px;
+    background: #2B2B2B;
+    display: flex;
+}
+.banner15 .imgpa{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.banner15 .lona{
+    margin-top: 80px;
+    margin-left: 170px;
+}
+.banner15 .lote{
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.banner15 .loka{
+    margin-top: 80px;
+    margin-left: 40px;
+}
